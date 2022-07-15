@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="sportstak.SportsTakTest">
+        <methods>
+          <include name="changeTheme_Test1"/>
+          <include name="verifyBrokenLinksBuzz_Test"/>
+          <include name="changeTheme_Test"/>
+          <include name="openUrlAndChangeLanguage_Test"/>
+          <include name="launch"/>
+          <include name="changeBackLanguage_Test"/>
+          <include name="verifyBrokenLinksHomepage_Test"/>
+        </methods>
+      </class> <!-- sportstak.SportsTakTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

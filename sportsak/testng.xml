@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="base.TestBaseListener" />
+	</listeners>
+
+	<parameter name="Environment" value="https://thesportstak.com/" />
+	<test thread-count="1" name="Test">
+
+		<classes>
+			<class name="sportstak.SportsTakTest">
+				<methods>
+					<!-- <include name="openUrlAndChangeLanguage_Test"></include>
+					<include name="changeBackLanguage_Test"></include>
+					<include name="verifyBrokenLinksHomepage_Test"></include> 
+					<include name="verifyBrokenLinksBuzz_Test"></include>-->
+					<include name="changeTheme_Test1"></include> 
+				</methods>
+			</class> 
+		</classes>
+	</test>
+</suite> 
